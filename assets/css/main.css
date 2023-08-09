@@ -184,6 +184,19 @@ input, select, textarea {
 	}
 
 /* Container */
+.sticky{
+	display: inline;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 10;
+}
+#resume-button{
+	border: 1px solid white;
+	color: white;
+	background-color:#4eb980;
+
+}
 
 	.container {
 		margin: 0 auto;
