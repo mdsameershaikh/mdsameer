@@ -14,7 +14,7 @@ body {
 .main-container {
     position: absolute;
     top: 22vh;
-    left: 39%;
+    left: 36%;
     height: 70vh;
     width: 50vw;
     color: #fff;
@@ -105,8 +105,8 @@ a {
         position: fixed;
         left: -26vw;
         z-index: -1;
-        height: 100vh;
-        width: 150vw;
+        height: 90vh;
+        width: 152vw;
         rotate: -90deg;
 
     }
@@ -118,9 +118,36 @@ a {
     }
 
     .main-container {
+        top: 15vh;
         left: 10vw;
-        height: 47vh;
+        height: 40vh;
         width: 70vw;
+    }
+
+    .sec-start {
+        font-size: 3vw;
+    }
+
+    .sec-start::after {
+        font-size: 3vw;
+
+    }
+
+    .sec-end {
+        font-size: 3vw;
+    }
+
+
+    .list li {
+        letter-spacing: 0.4px;
+        font-size: 2vw;
+
+    }
+
+    .li-key {
+        color: #b150f2;
+        font-weight: 200;
+        font-size: 2.2vw;
     }
 }
 
@@ -132,7 +159,7 @@ a {
         bottom: 0px;
         left: -26vw;
         z-index: -1;
-        height: 125vh;
+        height: 100vh;
         width: 150vw;
         rotate: -90deg;
 
@@ -147,8 +174,40 @@ a {
     .main-container {
         top: 12vh;
         left: 10vw;
-        height: 59vh;
+        height: 50vh;
         width: 100vw;
+    }
+
+
+    .sec-start {
+        font-size: 4vw;
+    }
+
+    .sec-start::after {
+        font-size: 4vw;
+
+    }
+
+    .sec-end {
+        font-size: 4vw;
+    }
+
+
+    .list li {
+        letter-spacing: 0.4px;
+        font-size: 2.6vw;
+
+    }
+
+    .li-key {
+        color: #b150f2;
+        font-weight: 200;
+        font-size: 3.2vw;
+    }
+
+    .duration {
+        color: #fff;
+        font-size: 1.8vw;
     }
 }
 
@@ -160,7 +219,7 @@ a {
         left: -25vw;
         z-index: -1;
         padding: 0;
-        height: 107vh;
+        height: 90vh;
         width: 150vw;
         rotate: -90deg;
 
@@ -168,8 +227,8 @@ a {
 
     .main-container {
         left: 10vw;
-        height: 47vh;
-        width: 70vw;
+        height: 40vh;
+        width: 60vw;
     }
 
     #title {
@@ -178,6 +237,36 @@ a {
         left: 10vw;
     }
 
+    .sec-start {
+        font-size: 4vw;
+    }
+
+    .sec-start::after {
+        font-size: 4vw;
+
+    }
+
+    .sec-end {
+        font-size: 4vw;
+    }
+
+
+    .list li {
+        letter-spacing: 0.4px;
+        font-size: 2.6vw;
+
+    }
+
+    .li-key {
+        color: #b150f2;
+        font-weight: 200;
+        font-size: 3.2vw;
+    }
+
+    .duration {
+        color: #fff;
+        font-size: 1.8vw;
+    }
 
 }
 
@@ -189,7 +278,7 @@ a {
         left: -25vw;
         z-index: -1;
         padding: 0;
-        height: 110vh;
+        height: 130vh;
         width: 150vw;
         rotate: -90deg;
 
@@ -199,13 +288,41 @@ a {
         top: 10vh;
         left: 10vw;
         height: 53vh;
-        width: 90vw;
+        width: 70vw;
     }
 
     #title {
         margin-left: 0;
         position: absolute;
         left: 10vw;
+    }
+
+
+    .sec-start::after {
+        font-size: 4vw;
+
+    }
+
+    .sec-end {
+        font-size: 4vw;
+    }
+
+
+    .list li {
+        letter-spacing: 0.4px;
+        font-size: 2.6vw;
+
+    }
+
+    .li-key {
+        color: #b150f2;
+        font-weight: 200;
+        font-size: 3.2vw;
+    }
+
+    .duration {
+        color: #fff;
+        font-size: 1.8vw;
     }
 }
 
@@ -226,6 +343,36 @@ a {
 
     #title {
         margin-left: 0;
+        position: absolute;
+        left: 10vw;
+    }
+
+
+    .sec-start::after {
+        font-size: 4vw;
+
+    }
+
+    .sec-end {
+        font-size: 4vw;
+    }
+
+
+    .list li {
+        letter-spacing: 0.4px;
+        font-size: 2.6vw;
+
+    }
+
+    .li-key {
+        color: #b150f2;
+        font-weight: 200;
+        font-size: 3.2vw;
+    }
+
+    .duration {
+        color: #fff;
+        font-size: 1.8vw;
     }
 }
 
@@ -237,14 +384,55 @@ a {
         left: -25vw;
         z-index: -1;
         padding: 0;
-        height: 135vh;
+        height: 115vh;
         width: 150vw;
         rotate: -90deg;
 
     }
 
+    .main-container {
+        top: 10vh;
+        left: 10vw;
+        height: 50vh;
+        width: 70vw;
+    }
+
     #title {
         margin-left: 0;
+        position: absolute;
+        left: 10vw;
+    }
+
+    .sec-start {
+        font-size: 5vw;
+
+    }
+
+    .sec-start::after {
+        font-size: 5vw;
+
+    }
+
+    .sec-end {
+        font-size: 5vw;
+    }
+
+
+    .list li {
+        letter-spacing: 0.4px;
+        font-size: 3vw;
+
+    }
+
+    .li-key {
+        color: #b150f2;
+        font-weight: 200;
+        font-size: 3vw;
+    }
+
+    .duration {
+        color: #fff;
+        font-size: 2vw;
     }
 }
 
