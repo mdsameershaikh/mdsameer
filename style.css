@@ -1,0 +1,87 @@
+@import url('/assets/css/bg.css');
+@import url('/assets/css/media.css');
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    position: relative;
+    background-color: #140021;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main-container {
+    position: absolute;
+    top: 22vh;
+    left: 39%;
+    height: 70vh;
+    color: #fff;
+    overflow-y: scroll;
+}
+
+.content {
+    text-transform: lowercase;
+}
+
+a {
+    color: #fff;
+}
+
+.sec-start {
+    color: #b150f2;
+    font-size: 28px;
+}
+
+.sec-start::after {
+    content: '{';
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.sec-end {
+    font-weight: 400;
+    color: #fff;
+    font-size: 28px;
+}
+
+.list li {
+    letter-spacing: 0.4px;
+    font-size: 20px;
+
+}
+
+.li-key {
+    color: #b150f2;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.duration {
+    color: #fff;
+    font-size: 14px;
+}
+
+.li-val {
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+#title {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 7vw;
+    line-height: 5vw;
+    font-weight: 600;
+    text-align: justify;
+    color: #ffffff;
+    margin-left: 25vw;
+    letter-spacing: -0.02rem;
+    text-decoration: none;
+}
+
+#title::after {
+    content: '.json';
+    font-size: 4vh;
+    color: #b150f2;
+}
