@@ -85,3 +85,172 @@ a {
     font-size: 4vh;
     color: #b150f2;
 }
+
+
+@media (max-width: 768px) {
+
+    /* Your styles for ipad mini devices */
+    svg {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        z-index: -1;
+        margin: -15% 10px 95px -25%;
+        padding: 0;
+        height: 100vh;
+        width: 150%;
+        rotate: -90deg;
+
+    }
+}
+
+@media (max-width: 550px) {
+
+    /* Your styles for surface duo devices */
+    svg {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        z-index: -1;
+        margin: -46px 10px 95px -134px;
+        padding: 0;
+        height: 100vh;
+        width: 150%;
+        rotate: -90deg;
+
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Your styles for small devices */
+    svg {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        z-index: -1;
+        margin: 36% 0px 0px -25;
+        padding: 0;
+        height: 100vh;
+        width: 150%;
+        rotate: -90deg;
+
+    }
+
+    .main-container {
+        position: absolute;
+        top: 30vh;
+        height: 48vh;
+        color: #fdfdfd;
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 380px) {
+
+    /* Your styles for small devices */
+    svg {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        z-index: -1;
+        margin: 14% 47px 84px -94px;
+        padding: 0;
+        height: 100vh;
+        width: 150%;
+        rotate: -90deg;
+
+    }
+}
+
+@media (max-width: 320px) {
+
+    /* Your styles for small devices */
+    svg {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        z-index: -1;
+        margin: 84px 47px 84px -82px;
+        padding: 0;
+        height: 100vh;
+        width: 150%;
+        rotate: -90deg;
+
+    }
+}
+
+svg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
+#one {
+    animation: fade-in-left 10s ease-in-out 1s infinite both;
+}
+
+#two {
+    animation: fade-in-left 9s ease-in-out 1s infinite both;
+}
+
+#three {
+    animation: fade-in-left 8s ease-in-out 1s infinite both;
+}
+
+#four {
+    animation: fade-in-left 6s ease-in-out 3s infinite both;
+}
+
+#five {
+    animation: fade-in-left 7s ease-in-out 1s infinite both;
+}
+
+#six {
+    animation: fade-in-left 5s ease-in-out 1s infinite both;
+}
+
+#seven {
+    animation: fade-in-left 4s ease-in-out 1s infinite both;
+
+}
+
+
+@-webkit-keyframes fade-in-left {
+    0% {
+        transform: translateX(0);
+
+    }
+
+    50% {
+        transform: translateX(-35px);
+
+    }
+
+    100% {
+        transform: translateX(0);
+
+    }
+}
+
+@keyframes fade-in-left {
+    0% {
+        transform: translateX(0);
+
+    }
+
+    50% {
+        transform: translateX(-35px);
+
+    }
+
+    100% {
+        transform: translateX(0);
+
+    }
+}
