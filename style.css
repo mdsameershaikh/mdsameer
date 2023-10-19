@@ -16,6 +16,7 @@ body {
     top: 22vh;
     left: 39%;
     height: 70vh;
+    width: 50vw;
     color: #fff;
     overflow-y: scroll;
 }
@@ -24,43 +25,53 @@ body {
     text-transform: lowercase;
 }
 
+svg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 a {
     color: #fff;
 }
 
 .sec-start {
     color: #b150f2;
-    font-size: 28px;
+    font-size: 2.4vw;
 }
 
 .sec-start::after {
     content: '{';
     color: #fff;
-    font-size: 28px;
+    font-size: 2.4vw;
     font-weight: 400;
 }
 
 .sec-end {
     font-weight: 400;
     color: #fff;
-    font-size: 28px;
+    font-size: 2.4vw;
 }
 
 .list li {
     letter-spacing: 0.4px;
-    font-size: 20px;
+    font-size: 1.5vw;
 
 }
 
 .li-key {
     color: #b150f2;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .duration {
     color: #fff;
-    font-size: 14px;
+    font-size: 1vw;
 }
 
 .li-val {
@@ -82,7 +93,7 @@ a {
 
 #title::after {
     content: '.json';
-    font-size: 4vh;
+    font-size: 2vw;
     color: #b150f2;
 }
 
@@ -92,15 +103,24 @@ a {
     /* Your styles for ipad mini devices */
     svg {
         position: fixed;
-        bottom: 0px;
-        left: 0px;
+        left: -26vw;
         z-index: -1;
-        margin: -15% 10px 95px -25%;
-        padding: 0;
         height: 100vh;
-        width: 150%;
+        width: 150vw;
         rotate: -90deg;
 
+    }
+
+    #title {
+        margin-left: 0;
+        position: absolute;
+        left: 10vw
+    }
+
+    .main-container {
+        left: 10vw;
+        height: 47vh;
+        width: 70vw;
     }
 }
 
@@ -110,14 +130,25 @@ a {
     svg {
         position: fixed;
         bottom: 0px;
-        left: 0px;
+        left: -26vw;
         z-index: -1;
-        margin: -46px 10px 95px -134px;
-        padding: 0;
-        height: 100vh;
-        width: 150%;
+        height: 125vh;
+        width: 150vw;
         rotate: -90deg;
 
+    }
+
+    #title {
+        margin-left: 0;
+        position: absolute;
+        left: 10vw
+    }
+
+    .main-container {
+        top: 12vh;
+        left: 10vw;
+        height: 59vh;
+        width: 100vw;
     }
 }
 
@@ -126,40 +157,75 @@ a {
     /* Your styles for small devices */
     svg {
         position: fixed;
-        bottom: 0px;
-        left: 0px;
+        left: -25vw;
         z-index: -1;
-        margin: 36% 0px 0px -25;
         padding: 0;
-        height: 100vh;
-        width: 150%;
+        height: 107vh;
+        width: 150vw;
         rotate: -90deg;
 
     }
 
     .main-container {
+        left: 10vw;
+        height: 47vh;
+        width: 70vw;
+    }
+
+    #title {
+        margin-left: 0;
         position: absolute;
-        top: 30vh;
-        height: 48vh;
-        color: #fdfdfd;
-        overflow-y: scroll;
+        left: 10vw;
+    }
+
+
+}
+
+@media (max-width: 420px) {
+
+    /* Your styles for small devices */
+    svg {
+        position: fixed;
+        left: -25vw;
+        z-index: -1;
+        padding: 0;
+        height: 110vh;
+        width: 150vw;
+        rotate: -90deg;
+
+    }
+
+    .main-container {
+        top: 10vh;
+        left: 10vw;
+        height: 53vh;
+        width: 90vw;
+    }
+
+    #title {
+        margin-left: 0;
+        position: absolute;
+        left: 10vw;
     }
 }
+
 
 @media (max-width: 380px) {
 
     /* Your styles for small devices */
     svg {
         position: fixed;
-        bottom: 0px;
-        left: 0px;
+        left: -25vw;
         z-index: -1;
-        margin: 14% 47px 84px -94px;
         padding: 0;
-        height: 100vh;
-        width: 150%;
+        height: 120vh;
+        width: 150vw;
         rotate: -90deg;
 
+    }
+
+    #title {
+        margin-left: 0;
     }
 }
 
@@ -168,27 +234,21 @@ a {
     /* Your styles for small devices */
     svg {
         position: fixed;
-        bottom: 0px;
-        left: 0px;
+        left: -25vw;
         z-index: -1;
-        margin: 84px 47px 84px -82px;
         padding: 0;
-        height: 100vh;
-        width: 150%;
+        height: 135vh;
+        width: 150vw;
         rotate: -90deg;
 
     }
+
+    #title {
+        margin-left: 0;
+    }
 }
 
-svg {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-}
+
 
 
 #one {
