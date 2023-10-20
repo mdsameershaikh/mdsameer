@@ -114,7 +114,8 @@ a {
     #title {
         margin-left: 0;
         position: absolute;
-        left: 10vw
+        left: 10vw;
+        font-size: 8vw;
     }
 
     .main-container {
@@ -125,29 +126,29 @@ a {
     }
 
     .sec-start {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .sec-start::after {
-        font-size: 3vw;
+        font-size: 4%;
 
     }
 
     .sec-end {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
 
     .list li {
         letter-spacing: 0.4px;
-        font-size: 2vw;
+        font-size: 3vw;
 
     }
 
     .li-key {
         color: #b150f2;
         font-weight: 200;
-        font-size: 2.2vw;
+        font-size: 3.2vw;
     }
 }
 
@@ -157,9 +158,9 @@ a {
     svg {
         position: fixed;
         bottom: 0px;
-        left: -26vw;
+        left: -25vw;
         z-index: -1;
-        height: 100vh;
+        height: 110vh;
         width: 150vw;
         rotate: -90deg;
 
@@ -168,46 +169,51 @@ a {
     #title {
         margin-left: 0;
         position: absolute;
-        left: 10vw
+        left: 10vw;
+        font-size: 10vw;
+    }
+
+    #title::after {
+        font-size: 3vw;
     }
 
     .main-container {
         top: 12vh;
         left: 10vw;
         height: 50vh;
-        width: 100vw;
+        width: 70vw;
     }
 
 
     .sec-start {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .sec-start::after {
-        font-size: 4vw;
+        font-size: 5vw;
 
     }
 
     .sec-end {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
 
     .list li {
         letter-spacing: 0.4px;
-        font-size: 2.6vw;
+        font-size: 3.6vw;
 
     }
 
     .li-key {
         color: #b150f2;
         font-weight: 200;
-        font-size: 3.2vw;
+        font-size: 4.2vw;
     }
 
     .duration {
         color: #fff;
-        font-size: 1.8vw;
+        font-size: 2.8vw;
     }
 }
 
@@ -219,7 +225,7 @@ a {
         left: -25vw;
         z-index: -1;
         padding: 0;
-        height: 90vh;
+        height: 115vh;
         width: 150vw;
         rotate: -90deg;
 
@@ -227,45 +233,50 @@ a {
 
     .main-container {
         left: 10vw;
-        height: 40vh;
-        width: 60vw;
+        height: 50vh;
+        width: 80vw;
     }
 
     #title {
         margin-left: 0;
         position: absolute;
         left: 10vw;
+        font-size: 10vw;
+    }
+
+    #title::after {
+        font-size: 3vw;
     }
 
     .sec-start {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .sec-start::after {
-        font-size: 4vw;
+        font-size: 5vw;
 
     }
 
     .sec-end {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
 
     .list li {
         letter-spacing: 0.4px;
-        font-size: 2.6vw;
+        font-size: 3.6vw;
 
     }
 
     .li-key {
         color: #b150f2;
         font-weight: 200;
-        font-size: 3.2vw;
+        font-size: 4.2vw;
     }
 
     .duration {
         color: #fff;
-        font-size: 1.8vw;
+        font-size: 2.8vw;
     }
 
 }
@@ -278,7 +289,7 @@ a {
         left: -25vw;
         z-index: -1;
         padding: 0;
-        height: 130vh;
+        height: 126vh;
         width: 150vw;
         rotate: -90deg;
 
@@ -287,8 +298,8 @@ a {
     .main-container {
         top: 10vh;
         left: 10vw;
-        height: 53vh;
-        width: 70vw;
+        height: 60vh;
+        width: 75vw;
     }
 
     #title {
@@ -299,84 +310,40 @@ a {
 
 
     .sec-start::after {
-        font-size: 4vw;
+        font-size: 4.5vw;
+
+    }
+
+    .sec-start {
+        font-size: 4.5vw;
 
     }
 
     .sec-end {
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
 
 
     .list li {
         letter-spacing: 0.4px;
-        font-size: 2.6vw;
+        font-size: 2.9vw;
 
     }
 
     .li-key {
         color: #b150f2;
         font-weight: 200;
-        font-size: 3.2vw;
+        font-size: 3.8vw;
     }
 
     .duration {
         color: #fff;
-        font-size: 1.8vw;
+        font-size: 2vw;
     }
 }
 
 
 @media (max-width: 380px) {
-
-    /* Your styles for small devices */
-    svg {
-        position: fixed;
-        left: -25vw;
-        z-index: -1;
-        padding: 0;
-        height: 120vh;
-        width: 150vw;
-        rotate: -90deg;
-
-    }
-
-    #title {
-        margin-left: 0;
-        position: absolute;
-        left: 10vw;
-    }
-
-
-    .sec-start::after {
-        font-size: 4vw;
-
-    }
-
-    .sec-end {
-        font-size: 4vw;
-    }
-
-
-    .list li {
-        letter-spacing: 0.4px;
-        font-size: 2.6vw;
-
-    }
-
-    .li-key {
-        color: #b150f2;
-        font-weight: 200;
-        font-size: 3.2vw;
-    }
-
-    .duration {
-        color: #fff;
-        font-size: 1.8vw;
-    }
-}
-
-@media (max-width: 320px) {
 
     /* Your styles for small devices */
     svg {
@@ -394,6 +361,66 @@ a {
         top: 10vh;
         left: 10vw;
         height: 50vh;
+        width: 80vw;
+    }
+
+    #title {
+        margin-left: 0;
+        position: absolute;
+        left: 12vw;
+    }
+
+    .sec-start::after {
+        font-size: 5vw;
+
+    }
+
+    .sec-start::after {
+        font-size: 5vw;
+
+    }
+
+    .sec-end {
+        font-size: 5vw;
+    }
+
+
+    .list li {
+        letter-spacing: 0.4px;
+        font-size: 3.5vw;
+
+    }
+
+    .li-key {
+        color: #b150f2;
+        font-weight: 200;
+        font-size: 3.5vw;
+    }
+
+    .duration {
+        color: #fff;
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width: 320px) {
+
+    /* Your styles for small devices */
+    svg {
+        position: fixed;
+        left: -25vw;
+        z-index: -1;
+        padding: 0;
+        height: 143vh;
+        width: 150vw;
+        rotate: -90deg;
+
+    }
+
+    .main-container {
+        top: 10vh;
+        left: 10vw;
+        height: 60vh;
         width: 70vw;
     }
 
@@ -432,7 +459,7 @@ a {
 
     .duration {
         color: #fff;
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 }
 
