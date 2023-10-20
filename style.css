@@ -289,7 +289,7 @@ a {
         left: -25vw;
         z-index: -1;
         padding: 0;
-        height: 126vh;
+        height: 120vh;
         width: 150vw;
         rotate: -90deg;
 
@@ -298,42 +298,43 @@ a {
     .main-container {
         top: 10vh;
         left: 10vw;
-        height: 60vh;
-        width: 75vw;
+        height: 55vh;
+        width: 80vw;
     }
 
     #title {
         margin-left: 0;
         position: absolute;
         left: 10vw;
+        font-size: 2.6rem;
     }
 
 
     .sec-start::after {
-        font-size: 4.5vw;
+        font-size: 5vw;
 
     }
 
     .sec-start {
-        font-size: 4.5vw;
+        font-size: 5vw;
 
     }
 
     .sec-end {
-        font-size: 4.5vw;
+        font-size: 5vw;
     }
 
 
     .list li {
         letter-spacing: 0.4px;
-        font-size: 2.9vw;
+        font-size: 3vw;
 
     }
 
     .li-key {
         color: #b150f2;
         font-weight: 200;
-        font-size: 3.8vw;
+        font-size: 4vw;
     }
 
     .duration {
@@ -367,7 +368,8 @@ a {
     #title {
         margin-left: 0;
         position: absolute;
-        left: 12vw;
+        left: 10vw;
+        font-size: 2.4rem;
     }
 
     .sec-start::after {
