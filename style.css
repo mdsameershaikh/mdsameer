@@ -1,530 +1,548 @@
 body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: grid;
-    place-items: center;
-    position: relative;
-    background-color: #140021;
-    font-family: 'Work Sans', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+  position: relative;
+  background-color: #140021;
+  font-family: "Work Sans", sans-serif;
 }
 
 .main-container {
-    position: absolute;
-    top: 22vh;
-    left: 36%;
-    height: 70vh;
-    width: 50vw;
-    color: #fff;
-    overflow-y: scroll;
+  position: absolute;
+  top: 22vh;
+  left: 36%;
+  height: 70vh;
+  width: 50vw;
+  color: #fff;
+  overflow-y: scroll;
 }
 
 .content {
-    text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 svg {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 
 a {
-    color: #fff;
+  color: #fff;
 }
 
 .sec-start {
-    color: #b150f2;
-    font-size: 2.4vw;
+  color: #b150f2;
+  font-size: 2.4vw;
 }
 
 .sec-start::after {
-    content: '{';
-    color: #fff;
-    font-size: 2.4vw;
-    font-weight: 400;
+  content: "{";
+  color: #fff;
+  font-size: 2.4vw;
+  font-weight: 400;
 }
 
 .sec-end {
-    font-weight: 400;
-    color: #fff;
-    font-size: 2.4vw;
+  font-weight: 400;
+  color: #fff;
+  font-size: 2.4vw;
 }
 
 .list li {
-    letter-spacing: 0.4px;
-    font-size: 1.5vw;
-
+  letter-spacing: 0.4px;
+  font-size: 1.5vw;
 }
 
 .li-key {
-    color: #b150f2;
-    font-weight: 200;
-    font-size: 1.5vw;
+  color: #b150f2;
+  font-weight: 200;
+  font-size: 1.5vw;
 }
 
 .duration {
-    color: #fff;
-    font-size: 1vw;
+  color: #fff;
+  font-size: 1vw;
 }
 
 .li-val {
-    letter-spacing: 1px;
-    font-weight: 200;
+  letter-spacing: 1px;
+  font-weight: 200;
 }
 
 #title {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 7vw;
-    line-height: 5vw;
-    font-weight: 600;
-    text-align: justify;
-    color: #ffffff;
-    margin-left: 25vw;
-    letter-spacing: -0.02rem;
-    text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 7vw;
+  line-height: 5vw;
+  font-weight: 600;
+  text-align: justify;
+  color: #ffffff;
+  margin-left: 25vw;
+  letter-spacing: -0.02rem;
+  text-decoration: none;
 }
 
 #title::after {
-    content: '.json';
-    font-size: 2vw;
-    color: #b150f2;
+  content: ".json";
+  font-size: 2vw;
+  color: #b150f2;
 }
 
-
 @media (max-width: 768px) {
+  /* Your styles for ipad mini devices */
+  svg {
+    position: fixed;
+    left: -26vw;
+    z-index: -1;
+    height: 90vh;
+    width: 152vw;
+    rotate: -90deg;
+  }
 
-    /* Your styles for ipad mini devices */
-    svg {
-        position: fixed;
-        left: -26vw;
-        z-index: -1;
-        height: 90vh;
-        width: 152vw;
-        rotate: -90deg;
+  #title {
+    margin-left: 0;
+    position: absolute;
+    left: 10vw;
+    font-size: 8vw;
+  }
 
-    }
+  .main-container {
+    top: 15vh;
+    left: 10vw;
+    height: 40vh;
+    width: 70vw;
+  }
 
-    #title {
-        margin-left: 0;
-        position: absolute;
-        left: 10vw;
-        font-size: 8vw;
-    }
+  .sec-start {
+    font-size: 4vw;
+  }
 
-    .main-container {
-        top: 15vh;
-        left: 10vw;
-        height: 40vh;
-        width: 70vw;
-    }
+  .sec-start::after {
+    font-size: 4%;
+  }
 
-    .sec-start {
-        font-size: 4vw;
-    }
+  .sec-end {
+    font-size: 4vw;
+  }
 
-    .sec-start::after {
-        font-size: 4%;
+  .list li {
+    letter-spacing: 0.4px;
+    font-size: 3vw;
+  }
 
-    }
-
-    .sec-end {
-        font-size: 4vw;
-    }
-
-
-    .list li {
-        letter-spacing: 0.4px;
-        font-size: 3vw;
-
-    }
-
-    .li-key {
-        color: #b150f2;
-        font-weight: 200;
-        font-size: 3.2vw;
-    }
+  .li-key {
+    color: #b150f2;
+    font-weight: 200;
+    font-size: 3.2vw;
+  }
 }
 
 @media (max-width: 550px) {
+  /* Your styles for surface duo devices */
+  svg {
+    position: fixed;
+    bottom: 0px;
+    left: -25vw;
+    z-index: -1;
+    height: 110vh;
+    width: 150vw;
+    rotate: -90deg;
+  }
 
-    /* Your styles for surface duo devices */
-    svg {
-        position: fixed;
-        bottom: 0px;
-        left: -25vw;
-        z-index: -1;
-        height: 110vh;
-        width: 150vw;
-        rotate: -90deg;
+  #title {
+    margin-left: 0;
+    position: absolute;
+    left: 10vw;
+    font-size: 10vw;
+  }
 
-    }
+  #title::after {
+    font-size: 3vw;
+  }
 
-    #title {
-        margin-left: 0;
-        position: absolute;
-        left: 10vw;
-        font-size: 10vw;
-    }
+  .main-container {
+    top: 12vh;
+    left: 10vw;
+    height: 50vh;
+    width: 70vw;
+  }
 
-    #title::after {
-        font-size: 3vw;
-    }
+  .sec-start {
+    font-size: 5vw;
+  }
 
-    .main-container {
-        top: 12vh;
-        left: 10vw;
-        height: 50vh;
-        width: 70vw;
-    }
+  .sec-start::after {
+    font-size: 5vw;
+  }
 
+  .sec-end {
+    font-size: 5vw;
+  }
 
-    .sec-start {
-        font-size: 5vw;
-    }
+  .list li {
+    letter-spacing: 0.4px;
+    font-size: 3.6vw;
+  }
 
-    .sec-start::after {
-        font-size: 5vw;
+  .li-key {
+    color: #b150f2;
+    font-weight: 200;
+    font-size: 4.2vw;
+  }
 
-    }
-
-    .sec-end {
-        font-size: 5vw;
-    }
-
-
-    .list li {
-        letter-spacing: 0.4px;
-        font-size: 3.6vw;
-
-    }
-
-    .li-key {
-        color: #b150f2;
-        font-weight: 200;
-        font-size: 4.2vw;
-    }
-
-    .duration {
-        color: #fff;
-        font-size: 2.8vw;
-    }
+  .duration {
+    color: #fff;
+    font-size: 2.8vw;
+  }
 }
 
 @media (max-width: 480px) {
+  /* Your styles for small devices */
+  svg {
+    position: fixed;
+    left: -25vw;
+    z-index: -1;
+    padding: 0;
+    height: 115vh;
+    width: 150vw;
+    rotate: -90deg;
+  }
 
-    /* Your styles for small devices */
-    svg {
-        position: fixed;
-        left: -25vw;
-        z-index: -1;
-        padding: 0;
-        height: 115vh;
-        width: 150vw;
-        rotate: -90deg;
+  .main-container {
+    left: 10vw;
+    height: 50vh;
+    width: 80vw;
+  }
 
-    }
+  #title {
+    margin-left: 0;
+    position: absolute;
+    left: 10vw;
+    font-size: 10vw;
+  }
 
-    .main-container {
-        left: 10vw;
-        height: 50vh;
-        width: 80vw;
-    }
+  #title::after {
+    font-size: 3vw;
+  }
 
-    #title {
-        margin-left: 0;
-        position: absolute;
-        left: 10vw;
-        font-size: 10vw;
-    }
+  .sec-start {
+    font-size: 5vw;
+  }
 
-    #title::after {
-        font-size: 3vw;
-    }
+  .sec-start::after {
+    font-size: 5vw;
+  }
 
-    .sec-start {
-        font-size: 5vw;
-    }
+  .sec-end {
+    font-size: 5vw;
+  }
 
-    .sec-start::after {
-        font-size: 5vw;
+  .list li {
+    letter-spacing: 0.4px;
+    font-size: 3.6vw;
+  }
 
-    }
+  .li-key {
+    color: #b150f2;
+    font-weight: 200;
+    font-size: 4.2vw;
+  }
 
-    .sec-end {
-        font-size: 5vw;
-    }
-
-
-    .list li {
-        letter-spacing: 0.4px;
-        font-size: 3.6vw;
-
-    }
-
-    .li-key {
-        color: #b150f2;
-        font-weight: 200;
-        font-size: 4.2vw;
-    }
-
-    .duration {
-        color: #fff;
-        font-size: 2.8vw;
-    }
-
+  .duration {
+    color: #fff;
+    font-size: 2.8vw;
+  }
 }
 
 @media (max-width: 420px) {
+  /* Your styles for small devices */
+  svg {
+    position: fixed;
+    left: -25vw;
+    z-index: -1;
+    padding: 0;
+    height: 120vh;
+    width: 150vw;
+    rotate: -90deg;
+  }
 
-    /* Your styles for small devices */
-    svg {
-        position: fixed;
-        left: -25vw;
-        z-index: -1;
-        padding: 0;
-        height: 120vh;
-        width: 150vw;
-        rotate: -90deg;
+  .main-container {
+    top: 10vh;
+    left: 10vw;
+    height: 55vh;
+    width: 80vw;
+  }
 
-    }
+  #title {
+    margin-left: 0;
+    position: absolute;
+    left: 10vw;
+    font-size: 2.6rem;
+  }
 
-    .main-container {
-        top: 10vh;
-        left: 10vw;
-        height: 55vh;
-        width: 80vw;
-    }
+  .sec-start::after {
+    font-size: 5vw;
+  }
 
-    #title {
-        margin-left: 0;
-        position: absolute;
-        left: 10vw;
-        font-size: 2.6rem;
-    }
+  .sec-start {
+    font-size: 5vw;
+  }
 
+  .sec-end {
+    font-size: 5vw;
+  }
 
-    .sec-start::after {
-        font-size: 5vw;
+  .list li {
+    letter-spacing: 0.4px;
+    font-size: 3vw;
+  }
 
-    }
+  .li-key {
+    color: #b150f2;
+    font-weight: 200;
+    font-size: 4vw;
+  }
 
-    .sec-start {
-        font-size: 5vw;
-
-    }
-
-    .sec-end {
-        font-size: 5vw;
-    }
-
-
-    .list li {
-        letter-spacing: 0.4px;
-        font-size: 3vw;
-
-    }
-
-    .li-key {
-        color: #b150f2;
-        font-weight: 200;
-        font-size: 4vw;
-    }
-
-    .duration {
-        color: #fff;
-        font-size: 2vw;
-    }
+  .duration {
+    color: #fff;
+    font-size: 2vw;
+  }
 }
 
-
 @media (max-width: 380px) {
+  /* Your styles for small devices */
+  svg {
+    position: fixed;
+    left: -25vw;
+    z-index: -1;
+    padding: 0;
+    height: 115vh;
+    width: 150vw;
+    rotate: -90deg;
+  }
 
-    /* Your styles for small devices */
-    svg {
-        position: fixed;
-        left: -25vw;
-        z-index: -1;
-        padding: 0;
-        height: 115vh;
-        width: 150vw;
-        rotate: -90deg;
+  .main-container {
+    top: 10vh;
+    left: 10vw;
+    height: 50vh;
+    width: 80vw;
+  }
 
-    }
+  #title {
+    margin-left: 0;
+    position: absolute;
+    left: 10vw;
+    font-size: 2.4rem;
+  }
 
-    .main-container {
-        top: 10vh;
-        left: 10vw;
-        height: 50vh;
-        width: 80vw;
-    }
+  .sec-start::after {
+    font-size: 5vw;
+  }
 
-    #title {
-        margin-left: 0;
-        position: absolute;
-        left: 10vw;
-        font-size: 2.4rem;
-    }
+  .sec-start::after {
+    font-size: 5vw;
+  }
 
-    .sec-start::after {
-        font-size: 5vw;
+  .sec-end {
+    font-size: 5vw;
+  }
 
-    }
+  .list li {
+    letter-spacing: 0.4px;
+    font-size: 3.5vw;
+  }
 
-    .sec-start::after {
-        font-size: 5vw;
+  .li-key {
+    color: #b150f2;
+    font-weight: 200;
+    font-size: 3.5vw;
+  }
 
-    }
-
-    .sec-end {
-        font-size: 5vw;
-    }
-
-
-    .list li {
-        letter-spacing: 0.4px;
-        font-size: 3.5vw;
-
-    }
-
-    .li-key {
-        color: #b150f2;
-        font-weight: 200;
-        font-size: 3.5vw;
-    }
-
-    .duration {
-        color: #fff;
-        font-size: 1.8vw;
-    }
+  .duration {
+    color: #fff;
+    font-size: 1.8vw;
+  }
 }
 
 @media (max-width: 320px) {
+  /* Your styles for small devices */
+  svg {
+    position: fixed;
+    left: -25vw;
+    z-index: -1;
+    padding: 0;
+    height: 143vh;
+    width: 150vw;
+    rotate: -90deg;
+  }
 
-    /* Your styles for small devices */
-    svg {
-        position: fixed;
-        left: -25vw;
-        z-index: -1;
-        padding: 0;
-        height: 143vh;
-        width: 150vw;
-        rotate: -90deg;
+  .main-container {
+    top: 10vh;
+    left: 10vw;
+    height: 60vh;
+    width: 70vw;
+  }
 
-    }
+  #title {
+    margin-left: 0;
+    position: absolute;
+    left: 10vw;
+  }
 
-    .main-container {
-        top: 10vh;
-        left: 10vw;
-        height: 60vh;
-        width: 70vw;
-    }
+  .sec-start {
+    font-size: 5vw;
+  }
 
-    #title {
-        margin-left: 0;
-        position: absolute;
-        left: 10vw;
-    }
+  .sec-start::after {
+    font-size: 5vw;
+  }
 
-    .sec-start {
-        font-size: 5vw;
+  .sec-end {
+    font-size: 5vw;
+  }
 
-    }
+  .list li {
+    letter-spacing: 0.4px;
+    font-size: 3vw;
+  }
 
-    .sec-start::after {
-        font-size: 5vw;
+  .li-key {
+    color: #b150f2;
+    font-weight: 200;
+    font-size: 3vw;
+  }
 
-    }
-
-    .sec-end {
-        font-size: 5vw;
-    }
-
-
-    .list li {
-        letter-spacing: 0.4px;
-        font-size: 3vw;
-
-    }
-
-    .li-key {
-        color: #b150f2;
-        font-weight: 200;
-        font-size: 3vw;
-    }
-
-    .duration {
-        color: #fff;
-        font-size: 1.5vw;
-    }
+  .duration {
+    color: #fff;
+    font-size: 1.5vw;
+  }
 }
 
-
-
-
 #one {
-    animation: fade-in-left 10s ease-in-out 1s infinite both;
+  animation: fade-in-left 10s ease-in-out 1s infinite both;
 }
 
 #two {
-    animation: fade-in-left 9s ease-in-out 1s infinite both;
+  animation: fade-in-left 9s ease-in-out 1s infinite both;
 }
 
 #three {
-    animation: fade-in-left 8s ease-in-out 1s infinite both;
+  animation: fade-in-left 8s ease-in-out 1s infinite both;
 }
 
 #four {
-    animation: fade-in-left 6s ease-in-out 3s infinite both;
+  animation: fade-in-left 6s ease-in-out 3s infinite both;
 }
 
 #five {
-    animation: fade-in-left 7s ease-in-out 1s infinite both;
+  animation: fade-in-left 7s ease-in-out 1s infinite both;
 }
 
 #six {
-    animation: fade-in-left 5s ease-in-out 1s infinite both;
+  animation: fade-in-left 5s ease-in-out 1s infinite both;
 }
 
 #seven {
-    animation: fade-in-left 4s ease-in-out 1s infinite both;
-
+  animation: fade-in-left 4s ease-in-out 1s infinite both;
 }
 
-
 @-webkit-keyframes fade-in-left {
-    0% {
-        transform: translateX(0);
+  0% {
+    transform: translateX(0);
+  }
 
-    }
+  50% {
+    transform: translateX(-35px);
+  }
 
-    50% {
-        transform: translateX(-35px);
-
-    }
-
-    100% {
-        transform: translateX(0);
-
-    }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @keyframes fade-in-left {
-    0% {
-        transform: translateX(0);
+  0% {
+    transform: translateX(0);
+  }
 
-    }
+  50% {
+    transform: translateX(-35px);
+  }
 
-    50% {
-        transform: translateX(-35px);
-
-    }
-
-    100% {
-        transform: translateX(0);
-
-    }
+  100% {
+    transform: translateX(0);
+  }
 }
+
+/* fontawesome styles*/
+
+@font-face {
+  font-family: "Font Awesome 6 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(./fonts/fa-brands-400.woff2) format("woff2"),
+    url(./fonts/fa-brands-400.ttf) format("truetype");
+}
+
+.fa-brands,
+.fab {
+  font-family: "Font Awesome 6 Brands";
+}
+
+.fa-brands,
+.fab {
+  font-weight: 400;
+}
+.fa-brands {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+.fa-twitter:before {
+  content: "\f099";
+}
+
+.fa-linkedin-in:before {
+  content: "\f0e1";
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-gitlab:before {
+  content: "\f296";
+}
+
+.fa-vuejs:before {
+  content: "\f41f";
+}
+.fa-angular:before {
+  content: "\f420";
+}
+
+.fa-js:before {
+  content: "\f3b8";
+}
+.fa-html5:before {
+  content: "\f13b";
+}
+
+.fa-css3:before {
+  content: "\f13c";
+}
+
+/*sameer*/
