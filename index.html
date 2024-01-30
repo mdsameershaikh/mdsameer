@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sameer is a software developer who is experienced in angular and vue.js you can get in touch with him by given contact details in this website">
     <title>Sameer </title>
-    <link rel="stylesheet" defer href="style.css">
+    <link rel="stylesheet" defer href="assets/style.css">
 </head>
 
 <body>
@@ -122,6 +122,13 @@
         </div>
 
     </div>
+
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js');
+    }
+</script>
+<script src="service-worker.js"></script>
 </body>
 
 </html>
